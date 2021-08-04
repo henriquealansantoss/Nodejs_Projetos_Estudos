@@ -1,4 +1,4 @@
-# Projeto Site adoção de animais.
+# Projeto site adoção de animais.
 Projeto feito no módulo do curso Node + Typescript
 
 ### Pré-requisitos globais:
