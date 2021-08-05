@@ -1,9 +1,5 @@
 // model basicamente será um objeto, que terá funções para fazer algo com esses pets
 
-
-
-
-
 type PetType = 'dog' | 'cat' | 'fish';
 
 type Pet = {
@@ -150,7 +146,7 @@ export const Pet = {
     //filtrar os pets por nome da raça
     getFromName: (name: string): Pet[] => {
         return data.filter(item => item.name.toLowerCase().indexOf(name.toLowerCase()) > -1);
-        //indexOf é case sensitive
+        //indexOf não é case sensitive
     }
 
 }
